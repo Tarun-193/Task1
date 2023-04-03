@@ -1,0 +1,554 @@
+    .mainContainer {
+        /* Layout Properties */
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 1920px;
+        height: 1080px;
+        /* UI Properties */
+        background: #F8F8F8 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        opacity: 1;
+        font-family: "Poppins", sans-serif;
+    }
+
+    li,
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    body {
+        background-color: #F8F8F8;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background-color: #0B3855;
+        top: 0px;
+        left: 0px;
+        width: 1920px;
+        height: 100px;
+        /* UI Properties */
+        background: #0B3855 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .nav_links {
+        list-style: none;
+        display: flex;
+    }
+
+    /* .search-box{
+        display: inline-block;
+    } */
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    .logo {
+        color: #F48221;
+        font-size: 30px;
+        font-stretch: expanded;
+        top: 34px;
+        left: 70px;
+        width: 341px;
+        height: 32px;
+        opacity: 1;
+    }
+
+    .main {
+        margin: 20px 50px;
+    }
+
+    .button {
+        top: 197px;
+        left: 157px;
+        width: 98px;
+        height: 38px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #F48221;
+        border-radius: 30px;
+        opacity: 1;
+
+    }
+
+    .button1 {
+        top: 197px;
+        left: 70px;
+        width: 77px;
+        height: 38px;
+        background: #F48221 0% 0% no-repeat padding-box;
+        color: #F8F8F8;
+        border-radius: 30px;
+        opacity: 1;
+        position: absolute;
+
+
+    }
+
+    .button2 {
+        top: 197px;
+        left: 157px;
+        width: 98px;
+        height: 38px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #F48221;
+        border-radius: 30px;
+        opacity: 1;
+        position: absolute;
+        color: #F48221;
+    }
+
+    .button3 {
+        top: 197px;
+        left: 265px;
+        width: 125px;
+        height: 38px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #F48221;
+        border-radius: 30px;
+        opacity: 1;
+        position: absolute;
+        color: #F48221;
+    }
+
+    .button4 {
+        top: 197px;
+        left: 401px;
+        width: 125px;
+        height: 38px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #F48221;
+        border-radius: 30px;
+        opacity: 1;
+        position: absolute;
+        color: #F48221;
+    }
+
+    .container {
+        display: grid;
+        gap: 15px;
+        /* grid-template-columns: repeat(5,1fr); */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* margin-top: 20px; */
+
+        top: 268px;
+        left: 68px;
+        width: 1809px;
+        height: 797px;
+        /* UI Properties */
+        opacity: 1;
+        position: absolute;
+    }
+
+    .box {
+        padding: 20px;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .box img {
+        height: 140px;
+    }
+
+    .image {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .box h3 {
+        color: #36403A;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .box p {
+        color: #969696;
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .info span {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #C34328;
+    }
+
+    .info button {
+        cursor: pointer;
+        border: 2px solid #0B3855;
+        background-color: white;
+        color: #0B3855;
+        padding: 3px 10px;
+        border-radius: 20px;
+    }
+
+    .info button:hover {
+        background-color: #0B3855;
+        color: #F8F8F8;
+        transition: 0.2s;
+    }
+
+
+
+    .search-box:hover>.search-text {
+        padding: 10px;
+        width: 240px;
+        top: 25px;
+        left: 1272px;
+        width: 434px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        visibility: visible;
+       transition:2s;
+        /* transform: scaleX(1);  */
+    }
+
+    .search-btn {
+        /* Layout Properties */
+        position: absolute;
+        top: 40px;
+        left: 1671px;
+        width: 20px;
+        height: 20px;
+        background: transparent url('images/vuesax-outline-search-normal.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+    }
+
+    a.search-btn:hover+.search-text{
+        transition: 1s;
+    }
+
+    .search-text {
+
+        background: #ffffff;
+        border-radius: 25px;
+        border: none;
+        font-size: 16px;
+        /* transition: 0.2s; */
+        width: 0px;
+        position: absolute;
+        outline: none;
+        top: 25px;
+        left: 1272px;
+        width: 434px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        /* display: none; */
+        visibility: hidden;
+
+    }
+
+    .search-text:hover {
+        display: block;
+        border: none;
+    }
+
+    .searchcontainer {
+        top: 25px;
+        left: 1656px;
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        position: absolute;
+
+    }
+
+    .searchcontainer:hover{
+        cursor: pointer;
+        
+    }
+
+    .user {
+        top: 40px;
+        left: 1743px;
+        width: 20px;
+        height: 20px;
+        background: transparent url('images/vuesax-outline-user.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .userbg {
+        top: 25px;
+        left: 1728px;
+        width: 50px;
+        height: 50px;
+        background: transparent url('/images/Rectangle\ 3176.svg') 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .cartbg {
+        top: 25px;
+        left: 1800px;
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 25px;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .carticon {
+        top: 42px;
+        left: 1815px;
+        width: 17px;
+        height: 11px;
+        /* border: 2px solid #414143; */
+        opacity: 1;
+        /* background: transparent url('/images/shopping-cart.png') 0% 0% no-repeat padding-box; */
+        position: absolute;
+    }
+
+    .search-field {
+        padding: 10px;
+        background: #ffffff;
+        border-radius: 25px;
+        position: relative;
+        border: none;
+
+    }
+
+    .sku {
+        top: 150px;
+        left: 70px;
+        width: 50px;
+        height: 17px;
+        text-align: left;
+        font: normal normal normal 26px/36px Bath Sans;
+        letter-spacing: 0px;
+        color: #36403A;
+        opacity: 1;
+        position: absolute;
+    }
+
+
+
+    .userprofile {
+
+        /* Layout Properties */
+        position: relative;
+        top: 86px;
+        left: 1463px;
+        width: 140px;
+        height: 114px;
+        /* UI Properties */
+        background: #125778 0% 0% no-repeat padding-box;
+        border-radius: 5px 0px 0px 5px;
+        opacity: 1;
+    }
+
+    .photo {
+        top: 110px;
+        left: 1500px;
+        width: 65px;
+        height: 65px;
+        background: transparent url('images/Icon\ awesome-user-circle.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: inline-block;
+    }
+
+    .name {
+        top: 103px;
+        left: 1621px;
+        width: 80px;
+        height: 23px;
+        text-align: left;
+        font: normal normal 800 18px/23px Mulish;
+        letter-spacing: 0px;
+        color: #0B3855;
+        opacity: 1;
+        display: inline;
+    }
+
+    .line {
+        top: 143px;
+        left: 1603px;
+        width: 175px;
+        height: 0px;
+        border: 1px solid #CACACA;
+        opacity: 1;
+        display: inline;
+    }
+
+    .logout {
+        top: 162px;
+        left: 1621px;
+        width: 19px;
+        height: 19px;
+        background: transparent url('/images/vuesax-outline-logout.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: block;
+    }
+
+    .userlogout {
+        top: 159px;
+        left: 1650px;
+        width: 62px;
+        height: 25px;
+        text-align: center;
+        font: normal normal medium 18px/27px Poppins;
+        letter-spacing: 0px;
+        color: #C34328;
+        opacity: 1;
+        display: block;
+    }
+
+
+    .dropdown {
+        position: absolute;
+        /* Layout Properties */
+        top: 25px;
+        left: 1462px;
+        width: 316px;
+        height: 175px;
+        /* UI Properties */
+        opacity: 1;
+    }
+
+    /* .rightmenu:hover .dropdown {
+        display: block;
+        background-color: red;
+        position: absolute;
+    } */
+
+    .kln {
+        /* Layout Properties */
+        position: absolute;
+        top: 85px;
+        left: 1462px;
+        width: 316px;
+        height: 115px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 5px 5px 10px #00000029;
+        border: 1px solid #C6C6C6;
+        border-radius: 6px;
+        opacity: 1;
+    }
+
+    .userdetails1 {
+        /* Layout Properties */
+        position: absolute;
+        top: 86px;
+        left: 1463px;
+        width: 140px;
+        height: 114px;
+        /* UI Properties */
+        background: #125778 0% 0% no-repeat padding-box;
+        border-radius: 5px 0px 0px 5px;
+        opacity: 1;
+    }
+
+    .userphoto {
+        /* Layout Properties */
+        position: absolute;
+        top: 110px;
+        left: 1500px;
+        width: 65px;
+        height: 65px;
+        /* UI Properties */
+        background: transparent url('images/Icon\ awesome-user-circle.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .name {
+        /* Layout Properties */
+        position: absolute;
+        top: 103px;
+        left: 1621px;
+        width: 80px;
+        height: 23px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal 800 18px/23px Mulish;
+        letter-spacing: 0px;
+        color: #0B3855;
+        opacity: 1;
+
+    }
+
+    .logouticon {
+        /* Layout Properties */
+        position: absolute;
+        top: 162px;
+        left: 1621px;
+        width: 19px;
+        height: 19px;
+        /* UI Properties */
+        background: transparent url('images/vuesax-outline-logout.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .logoutText {
+        /* Layout Properties */
+        position: absolute;
+        top: 159px;
+        left: 1650px;
+        width: 62px;
+        height: 25px;
+        /* UI Properties */
+        text-align: center;
+        font: normal normal medium 18px/27px Poppins;
+        letter-spacing: 0px;
+        color: #C34328;
+        opacity: 1;
+    }
+
+    .line1 {
+        /* Layout Properties */
+        position: absolute;
+        top: 143px;
+        left: 1603px;
+        width: 175px;
+        height: 0px;
+        /* UI Properties */
+        border: 1px solid #CACACA;
+        opacity: 1;
+    }
+
+    .tarun {
+        display: none;
+    }
+
+    .rightmenu:hover+.tarun {
+        display: block;
+        /* background-color: red; */
+
+    }
+
+
+    .tarun:hover {
+        display: block;
+    }
